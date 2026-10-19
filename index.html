@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Postmarie Virtual Services | Social media for builders and food businesses</title>
+<meta name="description" content="Postmarie Virtual Services by Marie Babiera. Social media management, graphic design, and short-form video for home builders, cafes, bakeries, and food businesses.">
+<meta property="og:title" content="Postmarie Virtual Services">
+<meta property="og:description" content="Social media for home builders and food businesses. Content plans, graphics, and reels by Marie Babiera.">
+<meta property="og:image" content="rose-arch.webp">
+<meta name="theme-color" content="#1F4E79">
+<link rel="icon" type="image/png" href="favicon-64.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Lora:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#1F4E79; --blue-deep:#183F63; --navy:#1B2430; --cream:#FAF7F2; --sky:#DCE8F2; --sky-soft:#EEF3F8;
+  --terra:#C4773A; --terra-dark:#A9612B; --terra-lt:#E9A86F; --peach:#F6E6D6;
+  --ink:#1B2430; --ink-soft:#4A5566; --line:#E2DCD2;
+  --serif:'Lora', Georgia, serif; --sans:'DM Sans', system-ui, sans-serif;
+  --wrap:1180px; --gut:clamp(16px,4vw,40px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img,video{display:block;max-width:100%}
+img{height:auto}
+figure{margin:0}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.12;margin:0;letter-spacing:-.012em}
+h2{font-size:clamp(2rem,3.8vw,3rem)}
+p{margin:0}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
+.sec{padding:clamp(72px,9vw,120px) 0}
+.intro{max-width:640px}
+.intro p{margin-top:14px;font-size:1.1rem;color:var(--ink-soft)}
+:focus-visible{outline:3px solid var(--terra);outline-offset:3px;border-radius:6px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:999px;font-weight:700;font-size:1rem;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn-terra{background:var(--terra);color:#fff}
+.btn-terra:hover{background:var(--terra-dark)}
+.btn-ghost{border-color:var(--blue);color:var(--blue)}
+.btn-ghost:hover{background:var(--blue);color:#fff}
+
+/* header */
+header{position:sticky;top:0;z-index:30;background:rgba(220,232,242,.92);backdrop-filter:blur(10px)}
+header.scrolled{background:rgba(250,247,242,.94);box-shadow:0 1px 0 var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:20px;height:72px}
+.brand img{height:40px;width:auto}
+nav ul{display:flex;gap:28px;list-style:none;margin:0;padding:0}
+nav a{text-decoration:none;font-weight:500;color:var(--ink-soft)}
+nav a:hover{color:var(--blue)}
+.bar .btn{padding:10px 20px;font-size:.95rem}
+@media (max-width:860px){nav{display:none}}
+@media (max-width:420px){.brand img{height:32px}.bar .btn{padding:9px 14px;font-size:.88rem}}
+
+/* hero */
+.hero{background:var(--sky);padding:clamp(40px,6vw,72px) 0 clamp(64px,8vw,104px);overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,5vw,64px);align-items:center}
+.hero h1{font-size:clamp(2.6rem,5.2vw,4.4rem);color:var(--navy);max-width:15ch}
+.hero .sub{font-size:clamp(1.08rem,1.5vw,1.24rem);color:#33404F;max-width:44ch;margin-top:24px}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+.byline{display:flex;align-items:center;gap:14px;margin-top:40px}
+.byline img{width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:50% 20%;background:var(--blue)}
+.byline p{font-size:.98rem;color:#33404F;line-height:1.4}
+.byline strong{color:var(--navy)}
+.phones{display:flex;justify-content:center;gap:clamp(14px,2vw,24px);align-items:flex-start}
+.phones .phone:nth-child(2){margin-top:72px}
+
+/* phone frame */
+.phone{position:relative;width:clamp(150px,17vw,232px);aspect-ratio:9/16;border-radius:30px;border:7px solid var(--navy);background:var(--navy);overflow:hidden;box-shadow:0 24px 50px -24px rgba(27,36,48,.55);flex:none}
+.phone video{width:100%;height:100%;object-fit:cover;background:var(--navy)}
+.phone .sound{position:absolute;right:10px;bottom:10px;width:40px;height:40px;border-radius:50%;border:0;background:rgba(27,36,48,.72);color:#fff;display:grid;place-items:center;cursor:pointer}
+.phone .sound:hover{background:rgba(27,36,48,.92)}
+.phone .play{position:absolute;inset:0;margin:auto;width:64px;height:64px;border-radius:50%;border:0;background:rgba(250,247,242,.9);color:var(--navy);display:none;place-items:center;cursor:pointer}
+.phone.paused .play{display:grid}
+.phone figcaption{position:absolute;left:0;right:0;top:0;padding:14px 14px 28px;font-size:.82rem;font-weight:700;color:#fff;background:linear-gradient(rgba(27,36,48,.65),transparent)}
+.phone.more{display:flex;flex-direction:column;justify-content:flex-end;gap:12px;padding:22px 18px;color:var(--cream);text-decoration:none;background:var(--blue)}
+.phone.more:nth-of-type(even){background:var(--terra)}
+.phone.more b{font-family:var(--serif);font-size:1.3rem;line-height:1.2}
+.phone.more span{font-size:.92rem;color:rgba(250,247,242,.85)}
+.phone.more u{font-weight:700;text-underline-offset:4px}
+.phone.more:hover u{text-decoration-thickness:2px}
+
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr}
+  .phones{justify-content:flex-start}
+  .phones .phone:nth-child(2){margin-top:40px}
+}
+
+/* niches */
+.niche-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:48px}
+.niche{border-radius:26px;padding:clamp(28px,4vw,44px);display:flex;flex-direction:column}
+.niche.build{background:var(--blue);color:var(--cream)}
+.niche.food{background:var(--peach);color:var(--navy)}
+.niche h3{font-size:clamp(1.6rem,2.6vw,2.1rem)}
+.niche .what{margin-top:14px;max-width:46ch}
+.niche.build .what{color:#D5E1EC}
+.niche.food .what{color:#5A4A3C}
+.niche ul.types{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.niche ul.types li{padding:7px 14px;border-radius:999px;font-size:.92rem;font-weight:500}
+.niche.build ul.types li{background:rgba(250,247,242,.12)}
+.niche.food ul.types li{background:rgba(196,119,58,.16)}
+.niche .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:28px}
+.niche .shots button{all:unset;cursor:zoom-in;display:block}
+.niche .shots button[hidden]{display:none}
+.niche .shots.two{grid-template-columns:1fr 1fr}
+.niche .shots img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:10px}
+.niche .shots img.top{object-position:top}
+.niche .client{margin-top:auto;padding-top:22px;font-size:.93rem}
+.niche.build .client{color:#B9CADB}
+.niche.food .client{color:#7A6553}
+@media (max-width:900px){.niche-grid{grid-template-columns:1fr}}
+
+/* reels */
+.reels{background:var(--navy);color:var(--cream)}
+.reels .intro p{color:#C3CEDB}
+.reel-row{display:flex;gap:20px;overflow-x:auto;padding:44px var(--gut) 12px;margin:0 calc(var(--gut) * -1);scroll-snap-type:x proximity;scroll-padding-inline:var(--gut);scrollbar-width:thin;scrollbar-color:#4A5566 transparent}
+.reel-row > *{scroll-snap-align:start}
+.reels .phone{width:clamp(200px,22vw,250px);border-color:#2C394B}
+.reel-note{margin-top:22px;color:#AEB8C6;font-size:.95rem}
+.row-title{font-family:var(--sans);font-size:1.05rem;font-weight:700;color:var(--terra-lt);margin-top:48px;letter-spacing:0}
+.row-note{color:#AEB8C6;font-size:.95rem;margin-top:6px;max-width:60ch}
+.reels .row-title + .reel-row{padding-top:20px}
+.reels .row-note + .reel-row{padding-top:20px}
+
+/* results */
+.result{display:grid;grid-template-columns:1fr 1.3fr auto;gap:clamp(20px,4vw,48px);align-items:center;padding:34px 0;border-top:1px solid var(--line)}
+.result:last-of-type{border-bottom:1px solid var(--line)}
+.results-list{margin-top:44px}
+.result h3{font-size:1.45rem;color:var(--blue)}
+.result p{color:var(--ink-soft);margin-top:8px;font-size:.98rem}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;list-style:none;margin:0;padding:0}
+.nums b{display:block;font-family:var(--serif);font-size:clamp(1.7rem,2.6vw,2.2rem);font-weight:600;color:var(--terra);line-height:1.05}
+.nums span{display:block;font-size:.9rem;color:var(--ink-soft);margin-top:4px;line-height:1.35}
+.result .btn{white-space:nowrap}
+@media (max-width:980px){.result{grid-template-columns:1fr}.result .btn{justify-self:start}}
+@media (max-width:520px){.nums{grid-template-columns:1fr 1fr}}
+
+/* design strip */
+.design{background:var(--sky-soft)}
+.strip{display:flex;gap:16px;overflow-x:auto;padding:40px var(--gut) 14px;margin:0 calc(var(--gut) * -1);scroll-snap-type:x proximity;scroll-padding-inline:var(--gut);scrollbar-width:thin}
+.strip figure{flex:none;width:clamp(200px,22vw,250px);scroll-snap-align:start}
+.strip button{all:unset;cursor:zoom-in;display:block}
+.strip img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:14px;background:#fff}
+.strip figcaption{font-size:.9rem;color:var(--ink-soft);margin-top:8px}
+.docs{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:30px;font-size:.98rem}
+.docs span{color:var(--ink-soft);font-weight:500}
+.docs a{color:var(--blue);font-weight:700;text-underline-offset:4px}
+
+/* process */
+.steps{list-style:none;margin:48px 0 0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:20px;counter-reset:step}
+.steps li{counter-increment:step;padding-top:18px;border-top:3px solid var(--blue)}
+.steps li::before{content:counter(step);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--sky);color:var(--blue);font-weight:700;margin-bottom:14px}
+.steps h3{font-size:1.15rem;color:var(--navy)}
+.steps p{color:var(--ink-soft);font-size:.96rem;margin-top:6px}
+@media (max-width:980px){.steps{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.steps{grid-template-columns:1fr}}
+
+/* about + contact */
+.closing{background:var(--blue);color:var(--cream)}
+.closing-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:clamp(32px,6vw,80px);align-items:center}
+.closing img.me{width:min(100%,360px);justify-self:center}
+.closing h2{font-size:clamp(2.1rem,4.2vw,3.2rem)}
+.closing .bio{margin-top:16px;color:#D5E1EC;max-width:60ch}
+.closing .bio + .bio{margin-top:12px}
+.brands{margin-top:18px;color:#B9CADB;font-size:.95rem}
+.brands strong{color:var(--cream)}
+.closing .btn{margin-top:28px}
+.reach{display:flex;flex-wrap:wrap;gap:10px 26px;list-style:none;margin:28px 0 0;padding:0}
+.reach a{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--cream)}
+.reach svg{width:20px;height:20px;color:var(--terra-lt);flex:none}
+.reach a:hover span{text-decoration:underline;text-underline-offset:4px}
+@media (max-width:860px){.closing-grid{grid-template-columns:1fr}.closing img.me{width:min(70%,300px);justify-self:start}}
+footer{background:var(--navy);color:#AEB8C6;padding:30px 0;font-size:.92rem}
+.foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+.foot img{height:34px;width:auto}
+
+/* lightbox */
+dialog.lb{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100vw;height:100vh;margin:0}
+dialog.lb::backdrop{background:rgba(27,36,48,.92)}
+.lb-inner{position:absolute;inset:0;display:grid;place-items:center;padding:64px 72px}
+.lb-inner img{max-width:100%;max-height:calc(100vh - 128px);width:auto;border-radius:8px}
+.lb-btn{position:absolute;width:48px;height:48px;border-radius:50%;border:0;background:rgba(250,247,242,.14);color:#fff;cursor:pointer;display:grid;place-items:center}
+.lb-btn:hover{background:rgba(250,247,242,.28)}
+.lb-close{top:16px;right:16px}
+.lb-prev{left:14px;top:50%;transform:translateY(-50%)}
+.lb-next{right:14px;top:50%;transform:translateY(-50%)}
+.lb-cap{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#D5E1EC;font-size:.95rem}
+@media (max-width:600px){.lb-inner{padding:64px 12px}.lb-prev,.lb-next{top:auto;bottom:12px;transform:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header id="hdr">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Postmarie Virtual Services, back to top"><img src="logo-postmarie.png" alt="Postmarie Virtual Services" width="242" height="56"></a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#niches">Who I help</a></li>
+        <li><a href="#reels">Reels</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#process">How it works</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-terra" href="https://calendly.com/postmarievs" target="_blank" rel="noopener">Book a free call</a>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div>
+      <h1 id="hero-title">Social media for home builders and food businesses.</h1>
+      <p class="sub">You run the projects and the kitchen. I plan your posts, design your graphics, edit your reels, and keep your page active every week.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-terra" href="https://calendly.com/postmarievs" target="_blank" rel="noopener">Book a free call</a>
+        <a class="btn btn-ghost" href="#reels">Watch my reels</a>
+      </div>
+      <div class="byline">
+        <img src="rose-circle.webp" alt="Marie Babiera" width="56" height="56">
+        <p><strong>Marie Babiera</strong>, social media manager and video editor<br>Postmarie Virtual Services</p>
+      </div>
+    </div>
+    <div class="phones">
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="metadata" poster="poster-pikebuild-fixed-price.webp" aria-label="PikeBuild reel: fixed-price promise"><source src="pikebuild-fixed-price.mp4" type="video/mp4"></video>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="metadata" poster="poster-pikebuild-detail.webp" aria-label="PikeBuild reel: every detail, every time"><source src="pikebuild-detail.mp4" type="video/mp4"></video>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="niches" aria-labelledby="niches-title">
+  <div class="wrap">
+    <div class="intro">
+      <h2 id="niches-title">Who I help</h2>
+      <p>I focus on two kinds of businesses, so your content is built around how your customers actually decide.</p>
+    </div>
+    <div class="niche-grid">
+      <article class="niche build" data-group="build">
+        <h3>Construction and home builders</h3>
+        <p class="what">Before-and-after posts, project reels, and service carousels that show your workmanship and bring in quote requests.</p>
+        <ul class="types"><li>Project transformations</li><li>Build progress reels</li><li>Service carousels</li><li>Referral stories</li></ul>
+        <div class="shots">
+          <button data-full="g-pikebuild-kitchen.webp" aria-label="View kitchen renovation post"><img src="g-pikebuild-kitchen-sm.webp" alt="PikeBuild kitchen renovation post, before and after" loading="lazy"></button>
+          <button data-full="g-pikebuild-bathroom.webp" aria-label="View bathroom transformation post"><img src="g-pikebuild-bathroom-sm.webp" alt="PikeBuild bathroom transformation: same space, completely rebuilt" loading="lazy"></button>
+          <button data-full="g-pikebuild-framing.webp" aria-label="View framing post"><img src="g-pikebuild-framing-sm.webp" alt="PikeBuild framing post: behind the build" loading="lazy"></button>
+          <button data-full="g-pikebuild-quote.webp" aria-label="View fixed quote post"><img src="g-pikebuild-quote-sm.webp" alt="PikeBuild post: we quote it, we build it, no surprise bills" loading="lazy"></button>
+          <button data-full="c-pikebuild-1.webp" aria-label="View new builds slide"><img src="c-pikebuild-1.webp" alt="PikeBuild new builds and duplexes slide" loading="lazy"></button>
+          <button data-full="c-pikebuild-2.webp" aria-label="View promise slide"><img src="c-pikebuild-2.webp" alt="PikeBuild promise: no surprises, just results" loading="lazy"></button>
+        </div>
+        <p class="client">PikeBuild, Sydney builder. Social media management, April to August 2026.</p>
+      </article>
+      <article class="niche food" data-group="food">
+        <h3>Cafes, bakeries, and food businesses</h3>
+        <p class="what">Product posts, menu graphics, and short videos that make people hungry and bring them through your door.</p>
+        <ul class="types"><li>Menu and promo graphics</li><li>Product reels</li><li>Behind the counter</li><li>Seasonal offers</li></ul>
+        <div class="shots">
+          <button data-full="g-caketopia-ny-cake.webp" aria-label="View New Year cake post"><img src="g-caketopia-ny-cake-sm.webp" alt="Caketopia trending New Year cake post, pre-order for 500 pesos" loading="lazy"></button>
+          <button data-full="g-caketopia-xmas-cake.webp" aria-label="View Christmas cake post"><img src="g-caketopia-xmas-cake-sm.webp" alt="Caketopia Christmas chocolate cake post, 500 pesos" loading="lazy"></button>
+          <button data-full="g-caketopia-sandwich.webp" aria-label="View sandwich promo"><img src="g-caketopia-sandwich-sm.webp" alt="Caketopia sandwich promo with bacon, K-style, and overload prices" loading="lazy"></button>
+          <button data-full="g-caketopia-menu.webp" aria-label="View menu"><img class="top" src="g-caketopia-menu-sm.webp" alt="Caketopia menu with fries, sandwiches, and drinks" loading="lazy"></button>
+          <button data-full="g-caketopia-hours.webp" aria-label="View store hours post"><img src="g-caketopia-hours-sm.webp" alt="Caketopia store hours graphic on a wood background" loading="lazy"></button>
+          <button data-full="g-caketopia-flyer.webp" aria-label="View Caketopia flyer"><img src="g-caketopia-flyer-sm.webp" alt="Caketopia flyer with customized cakes, cupcakes, and pastries" loading="lazy"></button>
+        </div>
+        <p class="client">Caketopia, a cake, pastry, and snack shop in Aurora, Philippines. Menus, product posts, and promos.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec reels" id="reels" aria-labelledby="reels-title">
+  <div class="wrap">
+    <div class="intro">
+      <h2 id="reels-title">Reels that stop the scroll</h2>
+      <p>Short-form videos I plan and edit for Reels, TikTok, and YouTube Shorts. Videos play on mute. Tap the speaker to hear the sound.</p>
+    </div>
+    <h3 class="row-title">Construction reels for PikeBuild, Sydney</h3>
+    <div class="reel-row">
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-pikebuild-fixed-price.webp" aria-label="PikeBuild: fixed-price promise"><source src="pikebuild-fixed-price.mp4" type="video/mp4"></video>
+        <figcaption>PikeBuild: fixed-price promise</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-pikebuild-progress.webp" aria-label="PikeBuild: build progress"><source src="pikebuild-progress.mp4" type="video/mp4"></video>
+        <figcaption>PikeBuild: build progress</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-pikebuild-ndis-mods.webp" aria-label="PikeBuild: NDIS home modifications"><source src="pikebuild-ndis-mods.mp4" type="video/mp4"></video>
+        <figcaption>PikeBuild: NDIS home modifications</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-pikebuild-detail.webp" aria-label="PikeBuild: every detail"><source src="pikebuild-detail.mp4" type="video/mp4"></video>
+        <figcaption>PikeBuild: every detail</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-pikebuild-reno.webp" aria-label="PikeBuild: kitchen and bathroom reno"><source src="pikebuild-reno.mp4" type="video/mp4"></video>
+        <figcaption>PikeBuild: kitchen and bathroom reno</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-pikebuild-ndis.webp" aria-label="PikeBuild: NDIS projects"><source src="pikebuild-ndis.mp4" type="video/mp4"></video>
+        <figcaption>PikeBuild: NDIS projects</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+    </div>
+    <h3 class="row-title">AI UGC ads and VSLs</h3>
+    <p class="row-note">Every person in these videos is AI-generated. I write the script, generate the scenes, add the voice, and edit the final ad.</p>
+    <div class="reel-row">
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-homelux-ugc-pov.webp" aria-label="Homelux Theory: POV ad"><source src="homelux-ugc-pov.mp4" type="video/mp4"></video>
+        <figcaption>Homelux Theory: POV ad</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-homelux-ugc-1.webp" aria-label="Homelux Theory: bathroom storage ad"><source src="homelux-ugc-1.mp4" type="video/mp4"></video>
+        <figcaption>Homelux Theory: bathroom storage ad</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-homelux-ugc-3.webp" aria-label="Homelux Theory: problem and solution ad"><source src="homelux-ugc-3.mp4" type="video/mp4"></video>
+        <figcaption>Homelux Theory: problem and solution ad</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-avouria-ugc.webp" aria-label="Avouria: comfort tank ad"><source src="avouria-ugc.mp4" type="video/mp4"></video>
+        <figcaption>Avouria: comfort tank ad</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-haritaki-vsl.webp" aria-label="Haritaki Third Eye: doctor VSL"><source src="haritaki-vsl.mp4" type="video/mp4"></video>
+        <figcaption>Haritaki Third Eye: doctor VSL</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-testimonial-ugc.webp" aria-label="Testimonial-style ad"><source src="testimonial-ugc.mp4" type="video/mp4"></video>
+        <figcaption>Testimonial-style ad</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
+      <a class="phone more" href="https://roedigify.my.canva.site/videos" target="_blank" rel="noopener">
+        <b>More reels</b>
+        <span>Skincare, beauty, wellness, and home videos on my video portfolio.</span>
+        <u>Watch more videos</u>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="results" aria-labelledby="results-title">
+  <div class="wrap">
+    <div class="intro">
+      <h2 id="results-title">Results from real accounts</h2>
+      <p>The numbers behind two recent projects. Open the slides to see the full case study.</p>
+    </div>
+    <div class="results-list">
+      <article class="result" data-group="ensojigs">
+        <div>
+          <h3>Ensojigs on TikTok</h3>
+          <p>A fishing gear brand, grown from 12 followers with hook-first videos and a steady posting schedule.</p>
+        </div>
+        <ul class="nums">
+          <li><b>104K+</b><span>organic video views</span></li>
+          <li><b>1,700%</b><span>follower growth</span></li>
+          <li><b>90%+</b><span>views from the For You page</span></li>
+        </ul>
+        <button class="btn btn-ghost" data-open-group>See the slides</button>
+        <div hidden>
+          <button data-full="cs-ensojigs-1.webp"><img alt="Case study cover: growing a TikTok account in the fishing niche"></button>
+          <button data-full="cs-ensojigs-2.webp"><img alt="Overview"></button>
+          <button data-full="cs-ensojigs-3.webp"><img alt="Strategy implemented"></button>
+          <button data-full="cs-ensojigs-4.webp"><img alt="Results"></button>
+          <button data-full="cs-ensojigs-5.webp"><img alt="Results chart"></button>
+          <button data-full="cs-ensojigs-6.webp"><img alt="Sample content"></button>
+          <button data-full="cs-ensojigs-7.webp"><img alt="Conclusion"></button>
+        </div>
+      </article>
+      <article class="result" data-group="homelux">
+        <div>
+          <h3>Homelux Theory, 2-week trial</h3>
+          <p>A luxury home organizing brand tested across Instagram, TikTok, and Facebook with before-and-after content.</p>
+        </div>
+        <ul class="nums">
+          <li><b>196.8K</b><span>Instagram views in 14 days</span></li>
+          <li><b>97.7%</b><span>organic reach, no paid ads</span></li>
+          <li><b>82</b><span>Facebook link clicks, up 8,100%</span></li>
+        </ul>
+        <button class="btn btn-ghost" data-open-group>See the slides</button>
+        <div hidden>
+          <button data-full="cs-homelux-1.webp"><img alt="Two weeks in: here's what I delivered"></button>
+          <button data-full="cs-homelux-2.webp"><img alt="The approach"></button>
+          <button data-full="cs-homelux-3.webp"><img alt="Instagram results"></button>
+          <button data-full="cs-homelux-4.webp"><img alt="TikTok results"></button>
+          <button data-full="cs-homelux-5.webp"><img alt="Facebook results"></button>
+          <button data-full="cs-homelux-6.webp"><img alt="Audience portrait"></button>
+          <button data-full="cs-homelux-7.webp"><img alt="Momentum across platforms"></button>
+          <button data-full="cs-homelux-8.webp"><img alt="Month one playbook"></button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec design" id="design" aria-labelledby="design-title">
+  <div class="wrap">
+    <div class="intro">
+      <h2 id="design-title">More design work</h2>
+      <p>Posts and carousels for beauty, wellness, food, home, and lifestyle brands. Scroll sideways and tap to enlarge.</p>
+    </div>
+    <div class="strip" data-group="design">
+      <figure><button data-full="g-homelux-guide.webp"><img src="g-homelux-guide-sm.webp" alt="Homelux Theory organizing guide post" loading="lazy"></button><figcaption>Homelux Theory</figcaption></figure>
+      <figure><button data-full="c-homelux-1.webp"><img src="c-homelux-1.webp" alt="Homelux organizing mistakes carousel cover" loading="lazy"></button><figcaption>Homelux Theory carousel</figcaption></figure>
+      <figure><button data-full="g-strawberry-milkshake.webp"><img src="g-strawberry-milkshake-sm.webp" alt="Strawberry milkshake promo graphic" loading="lazy"></button><figcaption>Strawberry Milkshake</figcaption></figure>
+      <figure><button data-full="g-luxe-organix.webp"><img src="g-luxe-organix-sm.webp" alt="Luxe Organix skincare post" loading="lazy"></button><figcaption>Luxe Organix</figcaption></figure>
+      <figure><button data-full="g-detail-serum.webp"><img src="g-detail-serum-sm.webp" alt="Detail Cosmetics lip serum post" loading="lazy"></button><figcaption>Detail Cosmetics</figcaption></figure>
+      <figure><button data-full="g-garnier.webp"><img src="g-garnier-sm.webp" alt="Garnier vitamin C serum post" loading="lazy"></button><figcaption>Garnier</figcaption></figure>
+      <figure><button data-full="g-eves-garden.webp"><img src="g-eves-garden-sm.webp" alt="Eve's Garden houseplant post" loading="lazy"></button><figcaption>Eve's Garden</figcaption></figure>
+      <figure><button data-full="g-papa-feel.webp"><img src="g-papa-feel-sm.webp" alt="Papa Feel skincare sale post" loading="lazy"></button><figcaption>Papa Feel</figcaption></figure>
+      <figure><button data-full="g-maybelline.webp"><img src="g-maybelline-sm.webp" alt="Maybelline own your look post" loading="lazy"></button><figcaption>Maybelline</figcaption></figure>
+      <figure><button data-full="g-maybelline-vinyl.webp"><img src="g-maybelline-vinyl-sm.webp" alt="Maybelline Vinyl lip color post" loading="lazy"></button><figcaption>Maybelline Vinyl</figcaption></figure>
+      <figure><button data-full="g-detail-beauty.webp"><img src="g-detail-beauty-sm.webp" alt="Detail Cosmetics intentional beauty post" loading="lazy"></button><figcaption>Detail Cosmetics</figcaption></figure>
+      <figure><button data-full="g-strava.webp"><img src="g-strava-sm.webp" alt="Strava run, bike, hike post" loading="lazy"></button><figcaption>Strava</figcaption></figure>
+      <figure><button data-full="g-headphone.webp"><img src="g-headphone-sm.webp" alt="New arrival headphone ad" loading="lazy"></button><figcaption>Headphone ad</figcaption></figure>
+    </div>
+    <p class="docs"><span>Sample documents:</span>
+      <a href="https://docs.google.com/spreadsheets/d/1mNjMXc89h5Rr60oICWLTqINQ31sam_H9/view" target="_blank" rel="noopener">Content calendar</a>
+      <a href="https://docs.google.com/document/d/1ORX_xPFW0yFquL6DI5beULmGgPexF6A_/view" target="_blank" rel="noopener">Social media audit</a>
+      <a href="https://drive.google.com/file/d/17J3PxPcDloykvjFLN_mFbTYtwO1aP6_-/view" target="_blank" rel="noopener">Performance report</a>
+      <a href="https://drive.google.com/file/d/1Nq191Wu0_8ksxCPguyPT1B4nuWXN_fBB/view" target="_blank" rel="noopener">Workflow</a>
+    </p>
+  </div>
+</section>
+
+<section class="sec" id="process" aria-labelledby="process-title">
+  <div class="wrap">
+    <div class="intro">
+      <h2 id="process-title">How we'll work together</h2>
+      <p>A simple monthly routine, so you always know what's coming next.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Free call</h3><p>We talk about your business, your customers, and what your page needs.</p></li>
+      <li><h3>Monthly plan</h3><p>I prepare a content calendar for the month for your approval.</p></li>
+      <li><h3>Create</h3><p>I design the graphics, write the captions, and edit the reels.</p></li>
+      <li><h3>Post and reply</h3><p>I schedule every post and keep up with comments and messages.</p></li>
+      <li><h3>Report</h3><p>You get a short report on what worked and the plan for next month.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec closing" id="contact" aria-labelledby="contact-title">
+  <div class="wrap closing-grid">
+    <img class="me" src="rose-arch.webp" alt="Marie Babiera in a cream blazer, smiling" width="760" height="950" loading="lazy">
+    <div>
+      <h2 id="contact-title">Hi, I'm Marie. Let's plan your next month of content.</h2>
+      <p class="bio">I'm a social media manager and video editor with over 3 years of experience. I work remotely from the Philippines with clients in Australia and the US.</p>
+      <p class="brands"><strong>Brands I've worked with:</strong> PikeBuild, Homelux Theory, Ensojigs, Healtea and Caketopia, Jayson Make-up Artist.</p>
+      <a class="btn btn-terra" href="https://calendly.com/postmarievs" target="_blank" rel="noopener">Book a free call</a>
+      <ul class="reach">
+        <li><a href="mailto:babierarosemarie1202@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M3 7l9 6.5L21 7"/></svg><span>babierarosemarie1202@gmail.com</span></a></li>
+        <li><a href="https://wa.me/639282232583" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.4-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 9.5c.3 2.6 2.4 4.8 5 5.2l1.1-1.3 1.9.8"/></svg><span>WhatsApp +63 928 223 2583</span></a></li>
+        <li><a href="https://www.facebook.com/postmarievs/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H8v3h2.5V21z"/></svg><span>Facebook</span></a></li>
+        <li><a href="https://www.instagram.com/postmarievs/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a></li>
+        <li><a href="https://www.linkedin.com/in/postmarievs/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.1c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z"/></svg><span>LinkedIn</span></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <img src="logo-postmarie-white.png" alt="Postmarie Virtual Services" width="237" height="56" loading="lazy">
+    <p>&copy; 2026 Postmarie Virtual Services. Rosemarie A. Babiera.</p>
+  </div>
+</footer>
+
+<dialog class="lb" id="lb" aria-label="Image viewer">
+  <div class="lb-inner">
+    <img id="lb-img" src="" alt="">
+    <p class="lb-cap" id="lb-cap"></p>
+    <button class="lb-btn lb-close" id="lb-close" aria-label="Close"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <button class="lb-btn lb-prev" id="lb-prev" aria-label="Previous image"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>
+    <button class="lb-btn lb-next" id="lb-next" aria-label="Next image"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
+  </div>
+</dialog>
+
+<script>
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const hdr = document.getElementById('hdr');
+addEventListener('scroll', () => hdr.classList.toggle('scrolled', scrollY > 40), { passive: true });
+
+// Videos: play muted while on screen, pause when off screen; sound and play buttons
+const phones = [...document.querySelectorAll('[data-video]')];
+function setSound(ph, on) {
+  const v = ph.querySelector('video'), b = ph.querySelector('.sound');
+  v.muted = !on;
+  b.setAttribute('aria-pressed', on); b.setAttribute('aria-label', on ? 'Turn sound off' : 'Turn sound on');
+  b.querySelector('.wave').style.display = on ? '' : 'none';
+  b.querySelector('.mute').style.display = on ? 'none' : '';
+}
+phones.forEach(ph => {
+  const v = ph.querySelector('video');
+  ph.classList.add('paused');
+  v.addEventListener('play', () => ph.classList.remove('paused'));
+  v.addEventListener('pause', () => ph.classList.add('paused'));
+  ph.querySelector('.play').addEventListener('click', () => v.play());
+  v.addEventListener('click', () => v.paused ? v.play() : v.pause());
+  ph.querySelector('.sound').addEventListener('click', () => {
+    const on = v.muted;
+    if (on) phones.forEach(o => o !== ph && setSound(o, false));
+    setSound(ph, on);
+    if (on && v.paused) v.play();
+  });
+});
+if (!reduce && 'IntersectionObserver' in window) {
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    const v = e.target.querySelector('video');
+    if (e.isIntersecting) { v.play().catch(() => {}); } else { v.pause(); }
+  }), { threshold: 0.5 });
+  phones.forEach(ph => io.observe(ph));
+}
+
+// Lightbox
+const lb = document.getElementById('lb'), lbImg = document.getElementById('lb-img'), lbCap = document.getElementById('lb-cap');
+let group = [], pos = 0;
+function show(i) {
+  pos = (i + group.length) % group.length;
+  const b = group[pos], img = b.querySelector('img');
+  lbImg.src = b.dataset.full; lbImg.alt = img ? img.alt : '';
+  const cap = b.closest('figure')?.querySelector('figcaption')?.textContent;
+  lbCap.textContent = (cap ? cap + '  ' : '') + (pos + 1) + ' of ' + group.length;
+}
+function openGroup(el, start) {
+  group = [...el.closest('[data-group]').querySelectorAll('[data-full]')];
+  show(start ? group.indexOf(start) : 0); lb.showModal();
+}
+document.querySelectorAll('[data-full]').forEach(b => b.addEventListener('click', () => openGroup(b, b)));
+document.querySelectorAll('[data-open-group]').forEach(b => b.addEventListener('click', () => openGroup(b)));
+document.getElementById('lb-close').addEventListener('click', () => lb.close());
+document.getElementById('lb-prev').addEventListener('click', () => show(pos - 1));
+document.getElementById('lb-next').addEventListener('click', () => show(pos + 1));
+lb.addEventListener('click', e => { if (e.target === lb || e.target.classList.contains('lb-inner')) lb.close(); });
+lb.addEventListener('keydown', e => { if (e.key === 'ArrowRight') show(pos + 1); if (e.key === 'ArrowLeft') show(pos - 1); });
+</script>
+</body>
+</html>
