@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Postmarie Virtual Services | Social media for builders and food businesses</title>
-<meta name="description" content="Postmarie Virtual Services by Marie Babiera. Social media management, graphic design, and short-form video for home builders, cafes, bakeries, and food businesses.">
-<meta property="og:title" content="Postmarie Virtual Services">
-<meta property="og:description" content="Social media for home builders and food businesses. Content plans, graphics, and reels by Marie Babiera.">
+<title>Rosemarie Babiera | Social Media Manager and Video Editor</title>
+<meta name="description" content="Rosemarie Babiera, social media manager and video editor. Social media management, graphic design, and short-form video for home builders, cafes, bakeries, and food businesses.">
+<meta property="og:title" content="Rosemarie Babiera | Social Media Manager">
+<meta property="og:description" content="Social media for home builders and food businesses. Content plans, graphics, and reels by Rosemarie Babiera.">
 <meta property="og:image" content="rose-arch.webp">
 <meta name="theme-color" content="#1F4E79">
 <link rel="icon" type="image/png" href="favicon-64.png">
@@ -47,13 +47,14 @@ p{margin:0}
 header{position:sticky;top:0;z-index:30;background:rgba(220,232,242,.92);backdrop-filter:blur(10px)}
 header.scrolled{background:rgba(250,247,242,.94);box-shadow:0 1px 0 var(--line)}
 .bar{display:flex;align-items:center;justify-content:space-between;gap:20px;height:72px}
-.brand img{height:40px;width:auto}
+.brand{font-family:var(--serif);font-weight:600;font-size:1.45rem;color:var(--blue);text-decoration:none;letter-spacing:-.01em;white-space:nowrap}
+.brand span{color:var(--terra)}
 nav ul{display:flex;gap:28px;list-style:none;margin:0;padding:0}
 nav a{text-decoration:none;font-weight:500;color:var(--ink-soft)}
 nav a:hover{color:var(--blue)}
 .bar .btn{padding:10px 20px;font-size:.95rem}
 @media (max-width:860px){nav{display:none}}
-@media (max-width:420px){.brand img{height:32px}.bar .btn{padding:9px 14px;font-size:.88rem}}
+@media (max-width:420px){.brand{font-size:1.15rem}.bar .btn{padding:9px 14px;font-size:.88rem}}
 
 /* hero */
 .hero{background:var(--sky);padding:clamp(40px,6vw,72px) 0 clamp(64px,8vw,104px);overflow:hidden}
@@ -175,7 +176,7 @@ nav a:hover{color:var(--blue)}
 @media (max-width:860px){.closing-grid{grid-template-columns:1fr}.closing img.me{width:min(70%,300px);justify-self:start}}
 footer{background:var(--navy);color:#AEB8C6;padding:30px 0;font-size:.92rem}
 .foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
-.foot img{height:34px;width:auto}
+.foot .wordmark{font-family:var(--serif);font-weight:600;font-size:1.3rem;color:var(--cream)}
 
 /* lightbox */
 dialog.lb{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100vw;height:100vh;margin:0}
@@ -196,7 +197,7 @@ dialog.lb::backdrop{background:rgba(27,36,48,.92)}
 
 <header id="hdr">
   <div class="wrap bar">
-    <a class="brand" href="#top" aria-label="Postmarie Virtual Services, back to top"><img src="logo-postmarie.png" alt="Postmarie Virtual Services" width="242" height="56"></a>
+    <a class="brand" href="#top" aria-label="Rosemarie Babiera, back to top">Rosemarie <span>Babiera</span></a>
     <nav aria-label="Main">
       <ul>
         <li><a href="#niches">Who I help</a></li>
@@ -221,8 +222,8 @@ dialog.lb::backdrop{background:rgba(27,36,48,.92)}
         <a class="btn btn-ghost" href="#reels">Watch my reels</a>
       </div>
       <div class="byline">
-        <img src="rose-circle.webp" alt="Marie Babiera" width="56" height="56">
-        <p><strong>Marie Babiera</strong>, social media manager and video editor<br>Postmarie Virtual Services</p>
+        <img src="rose-circle.webp" alt="Rosemarie Babiera" width="56" height="56">
+        <p><strong>Rosemarie Babiera</strong><br>Social media manager and video editor</p>
       </div>
     </div>
     <div class="phones">
@@ -327,6 +328,12 @@ dialog.lb::backdrop{background:rgba(27,36,48,.92)}
     <h3 class="row-title">AI UGC ads and VSLs</h3>
     <p class="row-note">Every person in these videos is AI-generated. I write the script, generate the scenes, add the voice, and edit the final ad.</p>
     <div class="reel-row">
+      <figure class="phone" data-video>
+        <video muted loop playsinline preload="none" poster="poster-rosemary-hair-oil-ugc.webp" aria-label="Rosemary Hair Oil Co.: scalp routine ad"><source src="rosemary-hair-oil-ugc.mp4" type="video/mp4"></video>
+        <figcaption>Rosemary Hair Oil Co.: scalp routine ad</figcaption>
+        <button class="play" aria-label="Play video"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+        <button class="sound" aria-label="Turn sound on" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M16 9a4.5 4.5 0 0 1 0 6" style="display:none"/><path class="mute" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg></button>
+      </figure>
       <figure class="phone" data-video>
         <video muted loop playsinline preload="none" poster="poster-homelux-ugc-pov.webp" aria-label="Homelux Theory: POV ad"><source src="homelux-ugc-pov.mp4" type="video/mp4"></video>
         <figcaption>Homelux Theory: POV ad</figcaption>
@@ -474,9 +481,9 @@ dialog.lb::backdrop{background:rgba(27,36,48,.92)}
 
 <section class="sec closing" id="contact" aria-labelledby="contact-title">
   <div class="wrap closing-grid">
-    <img class="me" src="rose-arch.webp" alt="Marie Babiera in a cream blazer, smiling" width="760" height="950" loading="lazy">
+    <img class="me" src="rose-arch.webp" alt="Rosemarie Babiera in a cream blazer, smiling" width="760" height="950" loading="lazy">
     <div>
-      <h2 id="contact-title">Hi, I'm Marie. Let's plan your next month of content.</h2>
+      <h2 id="contact-title">Hi, I'm Rosemarie. Let's plan your next month of content.</h2>
       <p class="bio">I'm a social media manager and video editor with over 3 years of experience. I work remotely from the Philippines with clients in Australia and the US.</p>
       <p class="brands"><strong>Brands I've worked with:</strong> PikeBuild, Homelux Theory, Ensojigs, Healtea and Caketopia, Jayson Make-up Artist.</p>
       <a class="btn btn-terra" href="https://calendly.com/postmarievs" target="_blank" rel="noopener">Book a free call</a>
@@ -494,8 +501,8 @@ dialog.lb::backdrop{background:rgba(27,36,48,.92)}
 
 <footer>
   <div class="wrap foot">
-    <img src="logo-postmarie-white.png" alt="Postmarie Virtual Services" width="237" height="56" loading="lazy">
-    <p>&copy; 2026 Postmarie Virtual Services. Rosemarie A. Babiera.</p>
+    <span class="wordmark">Rosemarie Babiera</span>
+    <p>&copy; 2026 Rosemarie A. Babiera. Social media manager and video editor.</p>
   </div>
 </footer>
 
